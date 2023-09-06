@@ -1,0 +1,177 @@
+<html>
+    <head>
+        <title> Add Course </title>
+
+        <style>
+
+          
+            .form-background{
+
+                background-color: #eeeeee;
+                width: 30%;
+                height: 80%;
+                position: relative;
+                left: 35%;
+                top: 15%;
+                text-align: center;
+                padding: 10px;
+                border-radius: 30px;
+                box-shadow: 0px 9px 8px #c7c7c7;
+                transition: box-shadow 0.2, padding 0.4s;
+                color: rgb(91, 89, 89);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .form-background:hover {
+                box-shadow: 0px 9px 8px #959595;
+                padding:13px;
+            }
+
+            .header{
+                background-color: #637492;
+                height: 100px;
+                margin-top: -20;
+                border-bottom-left-radius: 50px;
+                
+
+            }
+            #menu{
+                margin-top: 20px;
+                margin-left: 10px;
+                height: 12rem;
+                padding-top: 3rem;
+
+            }
+
+            #menu > .btn {
+                margin-left: 30px;
+                color: white;
+                text-decoration: none;
+                padding: 5px;
+                border-radius: 10px;
+                transition: background 0.3s;
+
+            }
+
+            #menu > .btn:hover{
+                background-color:  #99a9c5;
+            }
+
+            .active{
+                background-color: #8b9ab4;
+            }
+
+            #footer{
+                background-color: #637492;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                width: 100%;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                position: relative;
+                top: 200px;
+
+            }
+
+        </style>
+    </head>
+    <body>
+
+       
+            <div class="header">
+                <div id="menu-header">
+                    <div id="menu">
+                    <a href="home.html" class="btn">Home</a>
+                    <a href="a" class="btn">Courses</a>
+                    <a href="AddCourse.html"class="btn active">Add Course</a>
+                    <a href="a" class="btn">About us</a>
+                    <a href="a" class="btn">Contact us</a>
+                    </div>
+                </div>
+        
+             </div>
+        <div class="form-background">
+        <form method = "post" action = "">
+
+            <h1>Add Course Form</h1>
+        
+            <hr>
+            <br>
+        
+            
+            <p>
+                <label>Course Name:<br><br>
+                    <input type = "text" placeholder = "Course Name" required/>
+                </label>
+            </p>
+        
+            <p>
+                <label>Course ID:<br><br>
+                    <input type = "text" placeholder = "Course ID" required/>
+                </label>
+            </p>
+             
+            <br>
+            <p>
+                <p>Level:<br></p>
+                <label>1
+                    <input name = "level" type = "radio" value = "1"checked>
+                </label>
+                <br>
+
+                <label>2
+                    <input name = "level" type = "radio" value = "2">
+                </label>
+                <br>
+
+                <label>3
+                    <input name = "level" type = "radio" value = "3">
+                </label>
+                <br>
+
+                <label>4
+                    <input name = "level" type = "radio" value = "4">
+                </label>
+                <br>
+
+                <label>5
+                    <input name = "level" type = "radio" value = "5">
+                </label>
+                <br>
+
+                <label>6
+                    <input name = "level" type = "radio" value = "6">
+                </label>
+                <br>
+
+                <label>7
+                    <input name = "level" type = "radio" value = "7">
+                </label>
+                <br>
+
+                <label>8
+                    <input name = "level" type = "radio" value = "8">
+                </label>
+                <br>
+                <br>
+                
+        
+                
+            </p>
+        
+            <p>
+                <input type = "submit" value = "Send">
+                <input type = "reset" value = "Reset">
+            </p>
+        
+        </form>
+
+      </div>
+
+        <div id="footer">
+        <h5>Informaton Technology Department at the Imam Muhammad bin Saud Islamic University. </h5>
+        <h6>@copyright 2018</h6>
+         </div>
+    </body>
+</html>
